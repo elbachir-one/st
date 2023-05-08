@@ -1,7 +1,10 @@
-# st
-### This is a fork of the suckless simple terminal (st), with additional fixes for mouse and Emoji compatibility.
+# ST
 
-# ALPHA_B build of st - the simple (suckless) terminal
+### This is a fork of the suckless simple terminal (ST), with additional fixes for mouse and Emoji compatibility.
+
+# ALPHA_B build of ST - the simple (suckless) terminal
+
+![ST](st.png)
 
 The [suckless terminal (st)](https://st.suckless.org/) with some additional
 features that make it literally the best terminal emulator in the Void:
@@ -15,8 +18,7 @@ features that make it literally the best terminal emulator in the Void:
 
 + Zooming out or in or reset `ShiftMask+Up/ShiftMask+Down/ShiftMask+Left`
 + FullScreen can be used with `logo+f`
-+ Scrolling is easy with touchpad or using the keyboard `ControlMask+Up/ControlMask+Down` you can also use pageUp and pageDown with the ControlMask.
-
++ Scrolling is easy with the mouse wheel or touchpad or using the keyboard `ControlMask+Up/ControlMask+Down` you can also use pageUp and pageDown with the ControlMask.
 
 ## Pretty stuff:
 
@@ -25,7 +27,7 @@ features that make it literally the best terminal emulator in the Void:
 + Default font is system "mono" at 18pt, and emoji suport
 
 ## Other st patches:
-
++ Alpha
 + Boxdraw
 + Ligatures
 + Font2
