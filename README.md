@@ -4,7 +4,7 @@
 
 # ALPHA_B build of ST - the simple (suckless) terminal
 
-![ST](st.png)
+![ST](st.jpg)
 
 The [suckless terminal (st)](https://st.suckless.org/) with some additional
 features that make it literally the best terminal emulator in the Void:
@@ -44,7 +44,6 @@ git clone https://github.com/elbachir-one/st
 cd st
 make
 sudo make clean install
-
 ```
 
 `make` and `fontconfig` is required to build this.
@@ -53,23 +52,34 @@ sudo make clean install
 
 ### Void Linux:
 
-`sudo xbps-install -S xorg base-devel libXft-devel libX11-devel libXinerama-devel harfbuzz-devel noto-fonts-emoji xclip`
+```
+sudo xbps-install -S xorg base-devel libXft-devel libX11-devel libXinerama-devel
+harfbuzz-devel noto-fonts-emoji xclip
+```
 
 ### Arch Linux:
 
-`sudo pacman -Sy xorg base-devel noto-fonts-emoji harfbuzz xclip`
+```
+sudo pacman -Sy xorg base-devel noto-fonts-emoji harfbuzz xclip
+```
 
 ### Debian/Ubuntu:
 
-`sudo apt install build-essential libx11-dev libxinerama-dev suckless-tools libxft-dev`
+```
+sudo apt install build-essential libx11-dev libxinerama-dev suckless-tools libxft-dev
+```
 
 ### FreeBSD:
 
-`doas pkg install pkgconfig ncurses noto-fonts-emoji terminfo-db`
+```
+doas pkg install pkgconfig ncurses noto-fonts-emoji terminfo-db
+```
 
 ### OpenBSD:
 
-`doas pkg_add pkgocnfig ncurses terminfo-db noto-fonts-emoji`
+```
+doas pkg_add pkgocnfig ncurses terminfo-db noto-fonts-emoji
+```
 
 On OpenBSD, be sure to edit `config.mk` first and remove `-lrt` from the
 `$LIBS` before compiling.
