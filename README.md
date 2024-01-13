@@ -16,7 +16,7 @@ features that make it literally the best terminal emulator in the Void:
 
 ## Bindings for:
 
-+ Zooming out or in or reset `ShiftMask+Up/ShiftMask+Down/ShiftMask+Left`
++ Zooming out or in or reset `TERMMOD+Up/TERMMOD+Down/TERMMOD+Left/TERMMOD+J/TERMMOD+K/TERMMOD+R`
 + FullScreen can be used with `logo+f`
 + Scrolling is easy with the mouse wheel or touchpad or using the keyboard `ControlMask+Up/ControlMask+Down` you can also use pageUp and pageDown with the ControlMask.
 
