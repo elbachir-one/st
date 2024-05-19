@@ -2618,6 +2618,7 @@ tresize(int col, int row)
 	int minrow, mincol;
 	int *bp;
 	TCursor c;
+
 	tmp = col;
 	if (!term.maxcol)
 		term.maxcol = term.col;
@@ -2675,7 +2676,7 @@ tresize(int col, int row)
 		term.line[i] = xmalloc(col * sizeof(Glyph));
 		term.alt[i] = xmalloc(col * sizeof(Glyph));
 	}
-	if (col > term.maxcol) {
+	if (col > term.col) {
 		bp = term.tabs + term.maxcol;
 
 		memset(bp, 0, sizeof(*term.tabs) * (col - term.maxcol));
