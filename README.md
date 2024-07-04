@@ -27,13 +27,13 @@ features that make it literally the best terminal emulator in the Void:
 + Default font is system "mono" at 18pt, and emoji suport
 
 ## Other st patches:
-+ Alpha
-+ Boxdraw
-+ Ligatures
-+ Font2
-+ Scroll
-+ Clipboard
-+ Glyphs
++ [Alpha](https://st.suckless.org/patches/alpha/)
++ [Boxdraw](https://st.suckless.org/patches/boxdraw/)
++ [Ligatures](https://st.suckless.org/patches/ligatures/)
++ [Font2](https://st.suckless.org/patches/font2/)
++ [Scroll](https://st.suckless.org/patches/scrollback/)
++ [Clipboard](https://st.suckless.org/patches/clipboard/)
++ [Glyphs](https://st.suckless.org/patches/glyph_wide_support/)
 
 ## Installation:
 
@@ -43,7 +43,7 @@ You should have xlib header and harfbuzz-devel files and noto-fonts-emoji instal
 git clone https://github.com/elbachir-one/st
 cd st
 make
-sudo make clean install
+sudo make install
 ```
 
 `make` and `fontconfig` is required to build this.
